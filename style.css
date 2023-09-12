@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(9, 9, 121, 1) 35%,
+      rgba(0, 212, 255, 1) 100%
+    );
+    color: white;
+    width: 100vw;
+  }
+  
+  .background {
+    height: 100vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  
+  .checkbox {
+    width: 15px;
+    height: 15px;
+  
+  }
+  
+  .taskBox {
+    width: 300px;
+    padding: 10px 10px 40px 10px;
+    border: 1px solid white;
+    margin: auto;
+    text-align: center;
+    border: 3px dashed rgb(255, 255, 255);
+    border-radius: 10px;
+  }
+  
+  .inpBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .inputBox {
+    padding: 7px 12px;
+    outline-style: none;
+    border-radius: 8px 0px 0px 8px;
+    border: none;
+  }
+  .btn:hover{
+    box-shadow: 2px 2px 8px rgb(0, 0, 0);
+    transition: .3s;
+  }
+  .btn {
+    padding: 6px 12px;
+    border-radius: 0px 8px 8px 0px;
+    border: none;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(255, 0, 0);
+    color: white;
+  }
+  
+  .storedTodo {
+    background-color: rgba(180, 174, 174, 0.336);
+    height: 30px;
+    display: flex;
+    gap: 10px;
+    border-radius: 4px;
+    margin: 10px 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    align-items: center;
+  }
+  
+  .todoText {
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
