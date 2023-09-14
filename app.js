@@ -45,28 +45,14 @@ function add() {
     });
     dlt.addEventListener("click", function () {
       storedData.remove();
-      saveData() 
+     
     });
     // Clear the input field
     inputBox.value = "";
-    saveData()
+    
   }
 }
 
 
 
-function saveData() {
-  let tasks = Array.from(document.querySelectorAll(".storedTodo")).map((task) => task.innerHTML);
-  localStorage.setItem("tasks", JSON.stringify(tasks));
-}
-
-function showData() {
-  let savedTasks = JSON.parse(localStorage.getItem("tasks"));
-
-  if (savedTasks) {
-    storedTodo.innerHTML = savedTasks.join("");
-  }
-}
-
-showData();
 
